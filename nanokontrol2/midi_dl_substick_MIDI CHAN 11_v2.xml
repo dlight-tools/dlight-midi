@@ -1,38 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <midi>
   <switch id="0">
-    <CC channel="1" num="0" id="subStick">1</CC>
-    <CC channel="1" num="1" id="subStick">2</CC>
-    <CC channel="1" num="2" id="subStick">3</CC>
-    <CC channel="1" num="3" id="subStick">4</CC>
-    <CC channel="1" num="4" id="subStick">5</CC>
-    <CC channel="1" num="5" id="subStick">6</CC>
-    <CC channel="1" num="6" id="subStick">7</CC>
-    <CC channel="1" num="7" id="subStick">8</CC>
-    <CC channel="1" num="16" id="Sub">9</CC>
-    <CC channel="1" num="17" id="Sub">10</CC>
-    <CC channel="1" num="19" id="JoyStick">-1</CC>
-    <CC channel="1" num="20" id="Flash Master">-1</CC>
-    <CC channel="1" num="21" id="AllSub Master">-1</CC>
-    <CC channel="1" num="22" id="Scene Master">-1</CC>
-    <CC channel="1" num="23" id="GrandMaster">-1</CC>
-    <NOTE channel="1" num="37" id="CloseAllSub">-1</NOTE>
-    <NOTE channel="1" num="38" id="Freeze">-1</NOTE>
-    <NOTE channel="1" num="39" id="BlackOut">-1</NOTE>
-    <NOTE channel="1" num="41" id="Go">-1</NOTE>
-    <NOTE channel="1" num="43" id="Step-">-1</NOTE>
-    <NOTE channel="1" num="44" id="Step+">-1</NOTE>
-    <NOTE channel="1" num="58" id="Sub Page -">-1</NOTE>
-    <NOTE channel="1" num="59" id="Sub Page +">-1</NOTE>
-    <NOTE channel="1" num="63" id="flashStick">2</NOTE>
-    <NOTE channel="1" num="64" id="flashStick">1</NOTE>
-    <NOTE channel="1" num="65" id="flashStick">2</NOTE>
-    <NOTE channel="1" num="66" id="flashStick">3</NOTE>
-    <NOTE channel="1" num="67" id="flashStick">4</NOTE>
-    <NOTE channel="1" num="68" id="flashStick">5</NOTE>
-    <NOTE channel="1" num="69" id="flashStick">6</NOTE>
-    <NOTE channel="1" num="70" id="flashStick">7</NOTE>
-    <NOTE channel="1" num="71" id="flashStick">8</NOTE>
+    <CC channel="11" num="1" id="subStick">1</CC>
+    <CC channel="11" num="2" id="subStick">2</CC>
+    <CC channel="11" num="3" id="subStick">3</CC>
+    <CC channel="11" num="4" id="subStick">4</CC>
+    <CC channel="11" num="5" id="subStick">5</CC>
+    <CC channel="11" num="6" id="subStick">6</CC>
+    <CC channel="11" num="7" id="subStick">7</CC>
+    <CC channel="11" num="8" id="subStick">8</CC>
+    
+    <CC channel="11" num="11" id="Sub">9</CC>
+    <CC channel="11" num="12" id="Sub">10</CC>
+    
+    <CC channel="11" num="14" id="JoyStick">-1</CC>
+    <CC channel="11" num="15" id="FlashMaster">-1</CC>
+    <CC channel="11" num="16" id="AllSubMaster">-1</CC>
+    <CC channel="11" num="17" id="SceneMaster">-1</CC>
+    <CC channel="11" num="18" id="GrandMaster">-1</CC>
+    
+    <NOTE channel="11" num="31" id="flashStick">1</NOTE>
+    <NOTE channel="11" num="32" id="flashStick">2</NOTE>
+    <NOTE channel="11" num="33" id="flashStick">3</NOTE>
+    <NOTE channel="11" num="34" id="flashStick">4</NOTE>
+    <NOTE channel="11" num="35" id="flashStick">5</NOTE>
+    <NOTE channel="11" num="36" id="flashStick">6</NOTE>
+    <NOTE channel="11" num="37" id="flashStick">7</NOTE>
+    <NOTE channel="11" num="38" id="flashStick">8</NOTE>
+    
+    <NOTE channel="11" num="51" id="Flash">9</NOTE>
+    <NOTE channel="11" num="52" id="Flash">10</NOTE>
+    
+    <NOTE channel="11" num="41" id="subPauseStick">1</NOTE>
+    <NOTE channel="11" num="42" id="subPauseStick">2</NOTE>
+    <NOTE channel="11" num="43" id="subPauseStick">3</NOTE>
+    <NOTE channel="11" num="44" id="subPauseStick">4</NOTE>
+    <NOTE channel="11" num="45" id="subPauseStick">5</NOTE>
+    <NOTE channel="11" num="46" id="subPauseStick">6</NOTE>
+    <NOTE channel="11" num="47" id="subPauseStick">7</NOTE>
+    <NOTE channel="11" num="48" id="subPauseStick">8</NOTE>
+
+    <NOTE channel="11" num="56" id="CloseAllSub">-1</NOTE>
+    <NOTE channel="11" num="57" id="Freeze">-1</NOTE>
+    <NOTE channel="11" num="58" id="BlackOut">-1</NOTE>
+    
+    <NOTE channel="11" num="1" id="StepPrev">-1</NOTE>
+    <NOTE channel="11" num="2" id="StepNext">-1</NOTE>
+    <NOTE channel="11" num="4" id="Go">-1</NOTE>
+
+    <NOTE channel="11" num="13" id="CircPagePrev">-1</NOTE>
+    <NOTE channel="11" num="14" id="CircPageNext">-1</NOTE>
+
+    <NOTE channel="11" num="21" id="SubPagePrev">-1</NOTE>
+    <NOTE channel="11" num="22" id="SubPageNext">-1</NOTE>
   </switch>
   <switch id="1"/>
   <switch id="2"/>
